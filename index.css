@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  
+  background-color: rgb(212, 63, 87);
+  
+}
+.header h1{
+  color: rgb(125, 3, 52);
+  font-family: Agency FB;
+  text-align: center;
+}
+.box1{
+  border-radius:15px 0px 0px 15px;
+  margin-top: 40;
+  font-family: Agency FB;
+  background-color: rgb(251, 122, 144);
+  float: left;
+  width: 40%;
+  height: 400px;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.box2{
+  border-radius:0px 15px 15px 0px;
+  margin-top: 40;
+  font-family: Agency FB;
+  background-color: rgb(236, 158, 171);
+  float: right;
+  width: 40%;
+  height: 400px;
+  margin-right: 10%;
+  text-align: center;
+
+}
+.mini1 {
+  border-radius: 5px;
+  height: 30px;
+  width: 130px;
+  text-decoration: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  background: rgb(236, 234, 234);
+  color: rgb(212, 63, 87);
+  position:absolute;
+  top: 27vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.mini2 {
+  border-radius: 5px;
+  margin-left: 4;
+  padding: 1em;
+  height: 60px;
+  width: 129px;
+  text-decoration: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  background: rgb(236, 234, 234);
+  color: rgb(212, 63, 87);
+  position:absolute;
+  top: 65vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.mini3 {
+  border-radius: 5px;
+  margin-left: 4;
+  padding: .5em;
+  height: 50px;
+  width: 100px;
+  text-decoration: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  background: rgb(236, 234, 234);
+  color: rgb(212, 63, 87);
+  position:absolute;
+  top: 79vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.innerbox1{
+    color: rgb(255, 255, 255);
+  border-radius: 5px;
+  position:relative;
+  top: 27vh;
+  width: 200px;
+  height: 80px;
+  margin-left: 20vh;
+  background-color: rgb(212, 63, 87);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:larger;
+}
+.innerbox2{
+    color: rgb(255, 255, 255);
+  border-radius: 5px;
+  position:relative;
+  top: 27vh;
+  width: 200px;
+  height: 80px;
+  margin-left: 20vh;
+  background-color:rgb(212, 63, 87);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+}
